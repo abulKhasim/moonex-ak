@@ -13,7 +13,7 @@ const Hero = () => {
                 <h1 className='text-[3rem] font-bold leading-none'><span className='text-yellow-500'>DEX</span> Platfrom</h1>
             </div>
             <p className='font-normal text-[#bebebe]'>Trade, earn, and own crypto in the all-in-one multi-chain DEX</p>
-            <div className='flex flex-row items-center gap-6 mt-5 font-semibold'>
+            <div className='flex flex-wrap flex-row items-center gap-6 mt-5 font-semibold'>
                 <Button text={"Connect Wallet"} textColor={"black"} borderColor={"bg-yellow-500"} bgColor={"bg-yellow-300"} />
                 <Button text={"Trade Cypto"} textColor={"yellow-500"} borderColor={"bg-yellow-500"} />
             </div>
@@ -23,7 +23,7 @@ const Hero = () => {
 
 function Button({ text, textColor, bgColor, borderColor }) {
     return (
-        <button className={`text-[0.7rem] sm:text-[1.5vw] md:text-[1rem] px-7 py-3 rounded-full ${bgColor ? "bg-yellow-500" : "bg-transparent"} ${borderColor === "bg-yellow-300" ? "border-[2px] border-yellow-300" : "border-[2px] border-yellow-300"} ${textColor ? `text-${textColor}` : "text-white"}`}>{text}</button>
+        <button className={`text-[0.8rem] sm:text-[1.5vw] md:text-[1rem] px-7 py-3 rounded-full ${bgColor ? "bg-yellow-500" : "bg-transparent"} ${borderColor === "bg-yellow-300" ? "border-[2px] border-yellow-300" : "border-[2px] border-yellow-300"} ${textColor ? `text-${textColor}` : "text-white"}`}>{text}</button>
     )
 }
 

@@ -44,7 +44,7 @@ function FaqComponent({ question, answer }) {
         <div className={`w-full px-2 sm:px-6 py-6  border-b-[1px] border-[#86868654]`} >
             <div onClick={expandHandler} className="flex w-full justify-between items-center">
                 <h2 className="w-[90%] text-[1rem] mb-1 pr-4">{question}</h2>
-                <div onClick={expandHandler} className='w-[1.5rem] sm:w-[2.5rem] h-[1.5rem] sm:h-[2.5rem] relative rounded-full bg-[#ffffff1c] cursor-pointer flex items-center justify-center text-[1.3rem] font-bold' >
+                <div onClick={expandHandler} className='w-[1.5rem] sm:w-[2.5rem] h-[1.5rem] sm:h-[2.5rem] relative rounded-full bg-[#ffffff1c] cursor-pointer flex items-center justify-center sm:text-[1.3rem] font-bold' >
                     +
                 </div>
             </div>
